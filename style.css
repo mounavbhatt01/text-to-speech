@@ -1,0 +1,57 @@
+.textf{
+    margin: 20;
+    padding: 20;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+body{
+    width: 100%;
+    min-width: 150vh;
+    background-color:rgb(0, 0, 0) ;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    align-content: center;
+    color: gray;
+}
+
+textarea{
+    width: 500px;
+    height: 250px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 16px;
+    border:0;
+    padding: 30px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom:30px;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    color: black;
+    font-size: 10px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+select, button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
